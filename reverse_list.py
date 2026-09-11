@@ -3,8 +3,8 @@
 # A method to reverse a list
 def reverse_list(numbers):
    new_list = []
-   for i in range(len(numbers) -1):      
-       new_list.append(numbers[-i])
+   for i in range(len(numbers)):      
+       new_list.append(numbers[-i - 1])
    return new_list
      
    

@@ -15,4 +15,3 @@ def second_largest(numbers):
     return sec_largest
 
 print("Second_largest:", second_largest([10, 5, 8, 12]))
-
